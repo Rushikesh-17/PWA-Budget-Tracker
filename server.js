@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(express.static(`public`));
 
-mongoose.connect(`mongodb+srv://Dev-Rushi:Dev_Rushi21@cluster1.uin7usk.mongodb.net/budget?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://Dev-Rushi:Dev_Rushi21@cluster1.uin7usk.mongodb.net/Budget`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
